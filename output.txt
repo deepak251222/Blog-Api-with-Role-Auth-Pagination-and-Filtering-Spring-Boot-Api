@@ -1,0 +1,282 @@
+   
+
+  url : -http://localhost:1111/user/allpage?pageNumber=0&pageSize=3
+
+
+   O/P  : -
+
+    {
+    "context": [
+        {
+            "uid": "d-1",
+            "uname": "Krishna",
+            "uemail": "krishna@gmail.com",
+            "upwd": "krishna",
+            "blogAdd": [
+                {
+                    "blog_id": "b-1",
+                    "blog_title": "Krishna 1",
+                    "blog_desc": "I am Krishna"
+                },
+                {
+                    "blog_id": "b-2",
+                    "blog_title": "Krishna 2",
+                    "blog_desc": "How it is ?"
+                }
+            ]
+        },
+        {
+            "uid": "d-10",
+            "uname": "Moon",
+            "uemail": "moon@gmail.com",
+            "upwd": "moon",
+            "blogAdd": [
+                {
+                    "blog_id": "b-13",
+                    "blog_title": "Moon",
+                    "blog_desc": "I am Moon"
+                }
+            ]
+        },
+        {
+            "uid": "d-11",
+            "uname": "Aditya",
+            "uemail": "Aditya@gmail.com",
+            "upwd": "Aditya",
+            "blogAdd": [
+                {
+                    "blog_id": "b-14",
+                    "blog_title": "Aditya",
+                    "blog_desc": "I am Aditya"
+                }
+            ]
+        }
+    ],
+    "pageNumber": 0,
+    "pageSize": 3,
+    "totlaElement": 15,
+    "totalPages": 5,
+    "lastPage": false
+
+
+
+
+
+
+uri : -http://localhost:1111/user/sortby/uname
+
+O/P 
+      [
+    {
+        "uid": "d-15",
+        "uname": "Aadi",
+        "uemail": "Aadi@gmail.com",
+        "upwd": "Aadi",
+        "blogAdd": [
+            {
+                "blog_id": "b-18",
+                "blog_title": "Aadi",
+                "blog_desc": "I am Aadi"
+            }
+        ]
+    },
+    {
+        "uid": "d-13",
+        "uname": "Aahan",
+        "uemail": "Aahan@gmail.com",
+        "upwd": "Aahan",
+        "blogAdd": [
+            {
+                "blog_id": "b-16",
+                "blog_title": "Aahan",
+                "blog_desc": "I am Aahan"
+            }
+        ]
+    },
+    {
+        "uid": "d-7",
+        "uname": "Aarav",
+        "uemail": "Aarav@gmail.com",
+        "upwd": "Aarav",
+        "blogAdd": [
+            {
+                "blog_id": "b-10",
+                "blog_title": "Aarav1",
+                "blog_desc": "I am Aarav"
+            }
+        ]
+    },
+    {
+        "uid": "d-11",
+        "uname": "Aditya",
+        "uemail": "Aditya@gmail.com",
+        "upwd": "Aditya",
+        "blogAdd": [
+            {
+                "blog_id": "b-14",
+                "blog_title": "Aditya",
+                "blog_desc": "I am Aditya"
+            }
+        ]
+    },
+    {
+        "uid": "d-9",
+        "uname": "Arjun",
+        "uemail": "Arjun@gmail.com",
+        "upwd": "Arjun",
+        "blogAdd": [
+            {
+                "blog_id": "b-12",
+                "blog_title": "Arjun",
+                "blog_desc": "I am Arjun"
+            }
+        ]
+    },
+    {
+        "uid": "d-14",
+        "uname": "Ayaan",
+        "uemail": "Ayaan@gmail.com",
+        "upwd": "Ayaan",
+        "blogAdd": [
+            {
+                "blog_id": "b-17",
+                "blog_title": "Ayaan",
+                "blog_desc": "I am Ayaan"
+            }
+        ]
+    },
+    {
+        "uid": "d-8",
+        "uname": "Daksh",
+        "uemail": "dAKSH@gmail.com",
+        "upwd": "Daksh",
+        "blogAdd": [
+            {
+                "blog_id": "b-11",
+                "blog_title": "Daksh",
+                "blog_desc": "I am Daksh"
+            }
+        ]
+    },
+    {
+        "uid": "d-3",
+        "uname": "Deepak Kumar",
+        "uemail": "deepak@gmail.com",
+        "upwd": "deepak",
+        "blogAdd": [
+            {
+                "blog_id": "b-5",
+                "blog_title": "Deepak Blogs Title ",
+                "blog_desc": "I am Deepak"
+            },
+            {
+                "blog_id": "b-6",
+                "blog_title": "Deepak Desc",
+                "blog_desc": "I am java Developer "
+            }
+        ]
+    },
+    {
+        "uid": "d-12",
+        "uname": "Kabir",
+        "uemail": "Kabir@gmail.com",
+        "upwd": "kabir",
+        "blogAdd": [
+            {
+                "blog_id": "b-15",
+                "blog_title": "Kabir",
+                "blog_desc": "I am Kabir"
+            }
+        ]
+    },
+    {
+        "uid": "d-1",
+        "uname": "Krishna",
+        "uemail": "krishna@gmail.com",
+        "upwd": "krishna",
+        "blogAdd": [
+            {
+                "blog_id": "b-1",
+                "blog_title": "Krishna 1",
+                "blog_desc": "I am Krishna"
+            },
+            {
+                "blog_id": "b-2",
+                "blog_title": "Krishna 2",
+                "blog_desc": "How it is ?"
+            }
+        ]
+    },
+    {
+        "uid": "d-2",
+        "uname": "mohan",
+        "uemail": "mohan@gmail.com",
+        "upwd": "mohan",
+        "blogAdd": [
+            {
+                "blog_id": "b-3",
+                "blog_title": "mohannew ",
+                "blog_desc": "I am Mohan"
+            },
+            {
+                "blog_id": "b-4",
+                "blog_title": "Mohan Bolgs new",
+                "blog_desc": "How it is ?"
+            }
+        ]
+    },
+    {
+        "uid": "d-10",
+        "uname": "Moon",
+        "uemail": "moon@gmail.com",
+        "upwd": "moon",
+        "blogAdd": [
+            {
+                "blog_id": "b-13",
+                "blog_title": "Moon",
+                "blog_desc": "I am Moon"
+            }
+        ]
+    },
+    {
+        "uid": "d-4",
+        "uname": "Raju",
+        "uemail": "raju@gmail.com",
+        "upwd": "raju",
+        "blogAdd": [
+            {
+                "blog_id": "b-7",
+                "blog_title": "Raju new ",
+                "blog_desc": "I am Raju new "
+            }
+        ]
+    },
+    {
+        "uid": "d-6",
+        "uname": "Raju Kummar mohan",
+        "uemail": "rajukumar@gmail.com",
+        "upwd": "rajukumar",
+        "blogAdd": [
+            {
+                "blog_id": "b-8",
+                "blog_title": "Raju new  kumar",
+                "blog_desc": "I am Raju kumarnew "
+            }
+        ]
+    },
+    {
+        "uid": "d-5",
+        "uname": "Saanvi",
+        "uemail": "Saanvi@gmail.com",
+        "upwd": "Saanvi",
+        "blogAdd": [
+            {
+                "blog_id": "b-9",
+                "blog_title": "Saanvi 1",
+                "blog_desc": "I am Saanvi"
+            }
+        ]
+    }
+]
+}  
+    
